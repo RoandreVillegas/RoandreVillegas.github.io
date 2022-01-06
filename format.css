@@ -1,0 +1,24 @@
+/**/
+.div-title{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+.menubar{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-family: Verdana, sans-serif;
+}
+.menubar ul li{
+    margin: 20px 0px;
+}
+body{
+    font-family: Verdana, sans-serif;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
