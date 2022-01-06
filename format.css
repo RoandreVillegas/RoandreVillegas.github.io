@@ -1,4 +1,13 @@
 /**/
+html{
+    scroll-behavior: smooth;
+}
+.main-column{
+    width: 90%;
+}
+.side-column{
+    width: 2.5%;
+}
 .div-title{
     position: absolute;
     left: 50%;
@@ -6,14 +15,48 @@
     transform: translate(-50%, -50%);
     padding: 10px;
 }
+#Main{
+    background-image: url("https://c1.wallpaperflare.com/preview/228/917/292/computer-wordpress-html-front-end.jpg") no-repeat center/cover;
+    background: url(/RoandreVillegas.github.io/code.jpg);
+    height: 900px;
+    width: 100%;
+}
+.heading{
+    transform: translate(50px, 725px);
+    color: black;
+    font-family: Verdana, sans-serif;
+}
+.read-more{
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%, -50%);
+}
+.arrow-icon{
+    position: absolute;
+    left: 50%;
+    top: 105%;
+    transform: translate(-50%, -50%);
+}
 .menubar{
     display: flex;
     align-items: center;
     justify-content: start;
     font-family: Verdana, sans-serif;
+    position: sticky;
 }
-.menubar ul li{
-    margin: 20px 0px;
+.menubar ul li a{
+    margin: 10px;
+    font-family: Verdana, sans-serif;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.menubar ul li a i{
+    margin: 10px;
+    color: black;
+    transform: translate(4250%);
+    text-decoration: none;
 }
 body{
     font-family: Verdana, sans-serif;
