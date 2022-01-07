@@ -3,7 +3,8 @@
     <head>
         <link rel = "stylesheet" href = "format.css">
         <title>Roandre Villegas</title>
-        <script src="https://kit.fontawesome.com/dbeedb9bd1.js" crossorigin="anonymous"></script>
+        <script src = "https://kit.fontawesome.com/dbeedb9bd1.js" crossorigin="anonymous"></script>
+        <script src = "Contact.js"></script>
         <meta charset = "utf-8">
     </head>
     <body class = 'main-column'>
@@ -11,7 +12,16 @@
             <nav class = "menubar">
                 <ul>
                     <li><a href = "https://roandrevillegas.github.io/">Roandre Villegas</a></li>
-                    <li><a href = "https://roandrevillegas.github.io">Contact Me</a></li>
+                    <!--<li><a href = "https://roandrevillegas.github.io">Contact Me</a></li>-->
+                    <li>
+                        <div class = "dropdown">
+                            <button onclick="toggle()" class = "dropbtn">Contact Me</button>
+                            <div id = "dropMenu" class = "dropdown-content">
+                                <a href = "mailto:roandre_villegas@rocketmail.com">Personal Email</a>
+                                <a href = "mailto:villegar@uoguelph.ca">University Email</a>
+                            </div>
+                        </div>
+                    </li>
                     <li><a href = "https://github.com/RoandreVillegas" target = "blank" rel = "noopener noreferrer">My Work</a></li>
                     <li><a href = "RoandreVillegas_Resume.pdf" target = "blank">Resume</a></li>
                 </ul>
