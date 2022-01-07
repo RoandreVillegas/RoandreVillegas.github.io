@@ -1,4 +1,3 @@
-/**/
 html{
     scroll-behavior: smooth;
 }
@@ -124,8 +123,7 @@ html{
     justify-content: start;
     font-family: Verdana, sans-serif;
     position: absolute;
-    transform: translate(30%, 900px);
-
+    transform: translate(53%, 900px);
 }
 .bottom-bar ul li a{
     margin: 50px;
