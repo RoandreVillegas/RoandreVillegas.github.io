@@ -4,6 +4,8 @@ html{
 }
 .main-column{
     width: 90%;
+    height: 1000%;
+    background-color: black;
 }
 .side-column{
     width: 2.5%;
@@ -13,24 +15,47 @@ html{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    padding: 10px;
+    padding: 20px;
+    color: white;
+    font-size: 25px;
 }
-#Main{
-    background-image: url("https://c1.wallpaperflare.com/preview/228/917/292/computer-wordpress-html-front-end.jpg") no-repeat center/cover;
-    background: url(/RoandreVillegas.github.io/code.jpg);
-    height: 900px;
+#footer{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: rgba(1, 16, 22, 0.938);
+    color: white;
+    text-align: center;
     width: 100%;
 }
+#Main{
+    background: url(wallpaper.jpg);
+    top: 0;
+    right: 0;
+    position: absolute;
+    width: 100%;
+    height: 820px;
+    opacity: 0.8;
+}
+#Read More{
+    display: flex;
+    flex-direction: column;
+    top: 1000%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
 .heading{
-    transform: translate(50px, 725px);
-    color: black;
+    transform: translate(50px, 850px);
+    color: white;
     font-family: Verdana, sans-serif;
+    background-color: black;
 }
 .read-more{
     position: absolute;
     left: 50%;
-    top: 90%;
+    top: 92%;
     transform: translate(-50%, -50%);
+    color: white;
 }
 .arrow-icon{
     position: absolute;
@@ -43,20 +68,46 @@ html{
     align-items: center;
     justify-content: start;
     font-family: Verdana, sans-serif;
-    position: sticky;
+    position: fixed;
 }
 .menubar ul li a{
     margin: 10px;
     font-family: Verdana, sans-serif;
-    color: black;
+    color: white;
     font-weight: bold;
     text-decoration: none;
 }
 .menubar ul li a i{
     margin: 10px;
-    color: black;
-    transform: translate(4250%);
+    color: white;
+    transform: translate(3000%);
     text-decoration: none;
+}
+.bottom-bar{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-family: Verdana, sans-serif;
+    position: absolute;
+    transform: translate(30%, 900px);
+
+}
+.bottom-bar ul li a{
+    margin: 50px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+#my-work{
+    color: white;
+    top: 93%;
+    z-index: 1;
+    font-size: 30px;
+    flex-direction: column;
+}
+td{
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
 }
 body{
     font-family: Verdana, sans-serif;
